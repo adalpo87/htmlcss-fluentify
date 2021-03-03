@@ -1,21 +1,20 @@
 /* Layout */
 
 *{
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body{
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
 }
 
 .clearfix{
   content: '';
   display: table;
   clear: both;
-}
+} 
 
 .float-left{
   float: left;
@@ -34,15 +33,20 @@ header{
 
 .header-container{
   width: 100%;
-  height: 200px;
-  line-height: 100px;
-  padding: 0 10%;
+  height: 100%;
+  padding: 0 10%; /* cosi abbiamo un spazio di 10 e 10 e quindi è come avere width 80% */
+  min-width: 1400px;
+  background-image: url(../img/background-header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 115% 100%;
 }
 
 .nav{
   height: 80px;
   line-height: 80px;
   width: 100%;
+  overflow: hidden;
 }
 
 .nav-logo{
@@ -95,7 +99,10 @@ header{
   text-decoration: none;
   font-size: 80%;
 }
-  
+
+.btn-large{
+  padding: 20px;
+}
 
 .btn-blue{
   border: 1px solid white;
@@ -110,12 +117,19 @@ header{
 
 
 /* title */
-.headerbg{
+.jumbotron{
+  position: relative;
   height: 470px;
-  }
+ }
 
+.jumbotron-text{
+  position:absolute;
+  top: 50%;
+  transform: translatey(-50%);
+}
 
-.headerbg .title h1{
-  font-size: 300%;
+.jumbotron-text h1{
   color: white;
+  font-size: 350%;
+  margin-bottom: 30px;
 }
