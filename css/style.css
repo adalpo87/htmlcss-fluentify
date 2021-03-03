@@ -1,0 +1,121 @@
+/* Layout */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.w50{
+  width: 50%;
+}
+
+/* header */
+
+header{
+  height: 550px;
+  background-color: #0c325a;
+}
+
+.header-container{
+  width: 100%;
+  height: 200px;
+  line-height: 100px;
+  padding: 0 10%;
+}
+
+.nav{
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+}
+
+.nav-logo{
+  width: 15%;
+}
+
+.nav-logo img{
+  margin-top: 15px;
+}
+
+
+
+.nav-list-center{
+  width: 45%;
+}
+
+.nav-list-right{
+  width: 40%;
+  text-align: right;
+}
+
+/* comandi lista */
+
+.menu-inline{
+  list-style: none;
+  
+}
+
+.menu-inline li{
+  display: inline;
+  padding: 0 10px;
+}
+
+.menu-inline li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+ 
+/* buttons */
+
+.btn{
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 80%;
+}
+  
+
+.btn-blue{
+  border: 1px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-green{
+  background-color: #7cbb04;
+}
+
+
+
+/* title */
+.headerbg{
+  height: 470px;
+  }
+
+
+.headerbg .title h1{
+  font-size: 300%;
+  color: white;
+}
