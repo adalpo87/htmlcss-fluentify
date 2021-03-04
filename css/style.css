@@ -162,12 +162,13 @@ header {
 
 .mainfloat{
   width: 100%;
-  height: 600px;
+  height: 400px;
+  
 }
 
 .img-left{
   width: 20%;
-  height: 70%;
+  height: 90%;
   margin-left: 15%;
   margin-top: 2%;
   margin-bottom: 5%;
@@ -186,7 +187,7 @@ header {
 
 .img-center{
   width: 20%;
-  height: 70%;
+  height: 90%;
   margin: 2% 5%;
   display: inline-block;
   position: relative;
@@ -204,7 +205,7 @@ header {
 
 .img-right{
   width: 20%;
-  height: 70% ;
+  height: 90% ;
   margin: 2% 0%;
   display: inline-block;
   position: relative;
@@ -229,12 +230,72 @@ header {
 
 .mainfloat .line{
   position: absolute;
-  width: 30%;
-  top: 65%;
+  width: 25%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .mainfloat .line hr{
-  border: 1px solid #d3d3d3;
+  border: 1px solid #e6e0e0;
+}
+
+.textfloat{
+  font-size: 0.75em;
+  text-align: center;
+  color: gray;
+  position: absolute;
+  top: 65%;
+  line-height: 1.5em;
+}
+
+.growt{
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+
+hr{
+  border: 1px solid #e6e0e0;
+}
+
+.growt img{
+  width: 30%;
+  height: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.growt .text-growt{
+  display: inline-block;
+  width: 30%;
+  height: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 15%;
+  text-align: left;
+  position: relative;
+}
+
+.text-growt h2{
+  position: absolute;
+  top: 10%;
+}
+
+.text-growt p{
+  position: absolute;
+  top: 23%;
+  font-size: 1.1em;
+  color: gray;
+}
+
+.text-growt a{
+  position: absolute;
+  top: 35%;
+  color:#3789e2;
+  text-decoration: none;
+
 }
