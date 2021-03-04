@@ -1,37 +1,37 @@
 /* Layout */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.clearfix{
-  content: '';
+.clearfix {
+  content: "";
   display: table;
   clear: both;
-} 
+}
 
-.float-left{
+.float-left {
   float: left;
 }
 
-.w50{
+.w50 {
   width: 50%;
 }
 
 /* header */
 
-header{
+header {
   height: 550px;
   background-color: #0c325a;
 }
 
-.header-container{
+.header-container {
   width: 100%;
   height: 100%;
   padding: 0 10%; /* cosi abbiamo un spazio di 10 e 10 e quindi è come avere width 80% */
@@ -42,54 +42,51 @@ header{
   background-position: 115% 100%;
 }
 
-.nav{
+.nav {
   height: 80px;
   line-height: 80px;
   width: 100%;
   overflow: hidden;
 }
 
-.nav-logo{
+.nav-logo {
   width: 15%;
 }
 
-.nav-logo img{
+.nav-logo img {
   margin-top: 15px;
 }
 
-
-
-.nav-list-center{
+.nav-list-center {
   width: 45%;
 }
 
-.nav-list-right{
+.nav-list-right {
   width: 40%;
   text-align: right;
 }
 
 /* comandi lista */
 
-.menu-inline{
+.menu-inline {
   list-style: none;
-  
 }
 
-.menu-inline li{
+.menu-inline li {
   display: inline;
   padding: 0 10px;
 }
 
-.menu-inline li a{
+.menu-inline li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   font-size: 80%;
 }
- 
+
 /* buttons */
 
-.btn{
+.btn {
   display: inline-block;
   color: white;
   border-radius: 5px;
@@ -100,36 +97,144 @@ header{
   font-size: 80%;
 }
 
-.btn-large{
+.btn-large {
   padding: 20px;
 }
 
-.btn-blue{
+.btn-blue {
   border: 1px solid white;
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.btn-green{
+.btn-green {
   background-color: #7cbb04;
 }
 
-
-
 /* title */
-.jumbotron{
+.jumbotron {
   position: relative;
   height: 470px;
- }
+}
 
-.jumbotron-text{
-  position:absolute;
+.jumbotron-text {
+  position: absolute;
   top: 50%;
   transform: translatey(-50%);
 }
 
-.jumbotron-text h1{
+.jumbotron-text h1 {
   color: white;
   font-size: 350%;
   margin-bottom: 30px;
+}
+
+/* main */
+.bgray{ 
+  width: 100%;
+  height: 130px;
+  background-color: #d3d3d3;
+}
+
+.text-gray{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.bgray h2{
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bgray p{
+  font-size: 1.2em;
+  color: grey;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.mainfloat{
+  width: 100%;
+  height: 600px;
+}
+
+.img-left{
+  width: 20%;
+  height: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  display: inline-block;
+  position: relative;
+}
+
+.img-left img{
+  height: 40%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.img-center{
+  width: 20%;
+  height: 70%;
+  margin: 2% 5%;
+  display: inline-block;
+  position: relative;
+}
+
+.img-center img{
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+
+.img-right{
+  width: 20%;
+  height: 70% ;
+  margin: 2% 0%;
+  display: inline-block;
+  position: relative;
+}
+
+.img-right img{
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.mainfloat h3{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  color: #7cbb04;
+}
+
+.mainfloat .line{
+  position: absolute;
+  width: 30%;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainfloat .line hr{
+  border: 1px solid #d3d3d3;
 }
