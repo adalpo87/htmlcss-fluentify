@@ -15,6 +15,11 @@ body {
   display: table;
   clear: both;
 }
+.container{
+  width: 84%;
+  margin:auto;
+}
+
 
 .float-left {
   float: left;
@@ -300,45 +305,44 @@ hr{
 }
 
 
-footer{
-  
+.box-footer{
+  height: 100%;
+  line-height: 130px;
 }
 
 
-
-footer .footer-left{
+.footer-left{
   width: 20%;
   height: 100%;
-  margin-left: 10%;
-  line-height: 130px;
-  font-size: 1.6em;
+  margin-right: 25%;
 }
 
-footer .footer-right{
-  width: 35%;
+.float-left h3{
+  font-size: 1.7em;
+}
+
+.footer-right{
+  width: 50%;
   height: 100%;
-  
-  margin-left: 30%;
-  line-height: 130px;
-  
+  text-align: right;
 }
 
-
-.select span{
+.spn{
   display: inline-block;
+  margin-right: 30px;
+}
+.spn2{
+  display: inline;
+  margin-right: 20px;
+  border-bottom: 1px solid gray;
+;
 }
 
-.select .sp1{
-  margin-right: 4%;
+.space{
+  display: inline-block;
+  width: 70px;
 }
 
-.select .sp2{
-  margin-right: 14%;
-}
-
-
-.btnfoot {
-  padding: 18px 6px;
-  border-style: none;
-  margin-left: ;
+.btn-xl{
+  padding: 20px 6px;
 }
