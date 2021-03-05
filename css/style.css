@@ -345,4 +345,19 @@ hr{
 
 .btn-xl{
   padding: 20px 6px;
+}  
+
+#help {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  background: #7cbb02;
+}
+#help a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
